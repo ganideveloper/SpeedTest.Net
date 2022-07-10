@@ -16,10 +16,12 @@ namespace SpeedTest
         private const string ConfigUrl = "https://www.speedtest.net/speedtest-config.php";
 
         private static readonly string[] ServersUrls = {
-            "https://www.speedtest.net/speedtest-servers-static.php",
-            "https://c.speedtest.net/speedtest-servers-static.php",
-            "https://www.speedtest.net/speedtest-servers.php",
-            "https://c.speedtest.net/speedtest-servers.php"
+           "http://c.speedtest.net/speedtest-config.php",
+           "http://c.speedtest.net/speedtest-servers-static.php",
+           "https://c.speedtest.net/speedtest-servers.php",
+           "https://www.speedtest.net/speedtest-servers-static.php",
+           "https://www.speedtest.net/speedtest-servers.php",
+        
         };
 
         private static readonly int[] DownloadSizes = { 350, 750, 1500, 3000 };
